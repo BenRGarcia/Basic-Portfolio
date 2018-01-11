@@ -28,38 +28,56 @@
   </header>
 
   <!-- Contact Form -->
-  <form action="#" method="post">
+  <form>
     <fieldset>
-      <legend><h1>Contact</h1></legend>
+      <legend>Contact</legend>
       <hr>
-      Name
-      <br>
-      <input type="text" name="name" placeholder="ex. John Smith" required>
-      <br>
-      Email
-      <br>
-      <input type="email" name="email" placeholder="you@example.com" required>
-      <br>
-      Message
-      <br>
-      <textarea name="message" required></textarea>
-      <br><br>
-      <input type="submit" value="Submit">
+      <!-- Name -->
+      <p>
+        <label for="name">Name</label>
+        <br>
+        <input id="name" type="text" name="name" placeholder="ex. John Smith" required>
+      </p>
+      <!-- Email -->
+      <p>
+        <label for="email">Email</label>
+        <br>
+        <input id="email" type="email" name="email" placeholder="you@example.com" required>
+      </p>
+      <!-- Message -->
+      <p>
+        <label for="message">Message</label>
+        <br>
+        <textarea id="message" name="message" required></textarea>
+      </p>
+      <!-- Submit Button -->
+      <p>
+        <input type="submit" value="Submit">
+      </p>
     </fieldset>
   </form>
 
-<!-- Social Links -->
+  <!-- Social Links -->
   <aside>
     <h3>Connect with Me</h3>
     <hr>
-    <a href="https://github.com/BenRGarcia" target="_blank"><img src="./assets/images/github.png" alt="GitHub icon"></a>
-    <a href="https://www.linkedin.com/in/seebenprogram" target="_blank"><img src="./assets/images/linkedin.png" alt="LinkedIn icon"></a>
-    <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank"><img src="./assets/images/stackoverflow.png" alt="Stack Overflow icon"></a>
+    <!-- GitHub -->
+    <a href="https://github.com/BenRGarcia" target="_blank">
+      <img src="./assets/images/github.png" alt="GitHub icon">
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/seebenprogram" target="_blank">
+      <img src="./assets/images/linkedin.png" alt="LinkedIn icon">
+    </a>
+    <!-- Stack Overflow -->
+    <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
+      <img src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
+    </a>
   </aside>
 
   <!-- Footer -->
   <footer>
-    &copy; Copyright 2018 Benjamin R. Garcia
+    <p>&copy; Copyright 2018 Benjamin R. Garcia</p>
   </footer>
 
 </body>
