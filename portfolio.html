@@ -4,45 +4,53 @@
   <!-- Define the character set -->
   <meta charset="utf-8">
 
-  <!-- Set width of page to match width of device, do not shrink to fit -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Page Title -->
   <title>Web Dev Ben | Portfolio</title>
 
-  <!-- Link to reset.css -->
+  <!-- Link to stylesheets -->
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-
-  <!-- Link to style.css -->
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-<!-- Name in header, aligned with navbar -->
-Benjamin R Garcia
 
-<!-- Navbar -->
-About
-Portfolio
-Contact
+  <!-- Header, nested nav bar -->
+  <header>
+    <h2>Benjamin R. Garcia</h2>
+
+    <!-- Navbar, nested inside header -->
+    <nav>
+      <ul>
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
 <!-- Portfolio -->
-Portfolio
-
-This Thing
-That Thing
-Other Thing
-Widget #1
-Widget #2
+  <article>
+    <h1>Portfolio</h1>
+    <hr>
+    <a href="#" class="portfolio-card">Thing 1</a>
+    <a href="#" class="portfolio-card">Thing 2</a>
+    <a href="#" class="portfolio-card">Thing 3</a>
+    <a href="#" class="portfolio-card">Thing 4</a>
+    <a href="#" class="portfolio-card">Thing 5</a>
+  </article>
 
 <!-- Social Links -->
-Connect with Me
+  <aside>
+    <h3>Connect with Me</h3>
+    <hr>
+    <a href="https://github.com/BenRGarcia" target="_blank"><img src="./assets/images/github.png" alt="GitHub icon"></a>
+    <a href="https://www.linkedin.com/in/seebenprogram" target="_blank"><img src="./assets/images/linkedin.png" alt="LinkedIn icon"></a>
+    <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank"><img src="./assets/images/stackoverflow.png" alt="Stack Overflow icon"></a>
+  </aside>
 
-Github link
-linkedin link
-stack overflow
-
-<!-- Footer -->
-&copy Copyright 2018 Benjamin R Garcia
+  <!-- Footer -->
+  <footer>
+    &copy; Copyright 2018 Benjamin R. Garcia
+  </footer>
 
 </body>
 </html>
