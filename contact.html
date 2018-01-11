@@ -4,46 +4,63 @@
   <!-- Define the character set -->
   <meta charset="utf-8">
 
-  <!-- Set width of page to match width of device, do not shrink to fit -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Page Title -->
   <title>Web Dev Ben | Contact</title>
 
-  <!-- Link to reset.css -->
+  <!-- Link to stylesheets -->
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-
-  <!-- Link to style.css -->
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-<!-- Name in header, aligned with navbar -->
-Benjamin R Garcia
 
-<!-- Navbar -->
-About
-Portfolio
-Contact
+  <!-- Header, nested nav bar -->
+  <header>
+    <h2>Benjamin R. Garcia</h2>
 
-<!-- Contact Form -->
-Contact
+    <!-- Navbar, nested inside header -->
+    <nav>
+      <ul>
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-Name (placeholder text='John Smith')
-[Input box]
-Email (placeholder text='example@gmail.com')
-[Input box]
-Message
-[Comment Box]
+  <!-- Contact Form -->
+  <form action="#" method="post">
+    <fieldset>
+      <legend><h1>Contact</h1></legend>
+      <hr>
+      Name
+      <br>
+      <input type="text" name="name" placeholder="ex. John Smith" required>
+      <br>
+      Email
+      <br>
+      <input type="email" name="email" placeholder="you@example.com" required>
+      <br>
+      Message
+      <br>
+      <textarea name="message" required></textarea>
+      <br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
 
 <!-- Social Links -->
-Connect with Me
+  <aside>
+    <h3>Connect with Me</h3>
+    <hr>
+    <a href="https://github.com/BenRGarcia" target="_blank"><img src="./assets/images/github.png" alt="GitHub icon"></a>
+    <a href="https://www.linkedin.com/in/seebenprogram" target="_blank"><img src="./assets/images/linkedin.png" alt="LinkedIn icon"></a>
+    <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank"><img src="./assets/images/stackoverflow.png" alt="Stack Overflow icon"></a>
+  </aside>
 
-Github link
-linkedin link
-stack overflow
-
-<!-- Footer -->
-&copy Copyright 2018 Benjamin R Garcia
+  <!-- Footer -->
+  <footer>
+    &copy; Copyright 2018 Benjamin R. Garcia
+  </footer>
 
 </body>
 </html>
