@@ -13,72 +13,77 @@
 </head>
 <body>
 
-  <!-- Header, nested nav bar -->
-  <header>
-    <h2>Benjamin R. Garcia</h2>
+  <!-- Wrapper -->
+  <div class="container">
 
-    <!-- Navbar, nested inside header -->
-    <nav>
-      <ul>
-        <li><a href="./index.html">About</a></li>
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Header, nested nav bar -->
+    <header>
+      <h2 id="header-logo">Benjamin R. Garcia</h2>
 
-  <!-- Contact Form -->
-  <form>
-    <fieldset>
-      <legend>Contact</legend>
+      <!-- Navbar, nested inside header -->
+      <nav>
+        <ul>
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contact Form -->
+    <form class="main-section">
+      <fieldset>
+        <legend>Contact</legend>
+        <hr>
+        <!-- Name -->
+        <p>
+          <label for="name">Name</label>
+          <br>
+          <input id="name" type="text" name="name" placeholder="ex. John Smith" required>
+        </p>
+        <!-- Email -->
+        <p>
+          <label for="email">Email</label>
+          <br>
+          <input id="email" type="email" name="email" placeholder="you@example.com" required>
+        </p>
+        <!-- Message -->
+        <p>
+          <label for="message">Message</label>
+          <br>
+          <textarea id="message" name="message" required></textarea>
+        </p>
+        <!-- Submit Button -->
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </fieldset>
+    </form>
+
+    <!-- Social Links -->
+    <aside class="sidebar">
+      <h3>Connect with Me</h3>
       <hr>
-      <!-- Name -->
-      <p>
-        <label for="name">Name</label>
-        <br>
-        <input id="name" type="text" name="name" placeholder="ex. John Smith" required>
-      </p>
-      <!-- Email -->
-      <p>
-        <label for="email">Email</label>
-        <br>
-        <input id="email" type="email" name="email" placeholder="you@example.com" required>
-      </p>
-      <!-- Message -->
-      <p>
-        <label for="message">Message</label>
-        <br>
-        <textarea id="message" name="message" required></textarea>
-      </p>
-      <!-- Submit Button -->
-      <p>
-        <input type="submit" value="Submit">
-      </p>
-    </fieldset>
-  </form>
+      <!-- GitHub -->
+      <a href="https://github.com/BenRGarcia" target="_blank">
+        <img src="./assets/images/github.png" alt="GitHub icon">
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/seebenprogram" target="_blank">
+        <img src="./assets/images/linkedin.png" alt="LinkedIn icon">
+      </a>
+      <!-- Stack Overflow -->
+      <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
+        <img src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
+      </a>
+    </aside>
 
-  <!-- Social Links -->
-  <aside>
-    <h3>Connect with Me</h3>
-    <hr>
-    <!-- GitHub -->
-    <a href="https://github.com/BenRGarcia" target="_blank">
-      <img src="./assets/images/github.png" alt="GitHub icon">
-    </a>
-    <!-- LinkedIn -->
-    <a href="https://www.linkedin.com/in/seebenprogram" target="_blank">
-      <img src="./assets/images/linkedin.png" alt="LinkedIn icon">
-    </a>
-    <!-- Stack Overflow -->
-    <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
-      <img src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
-    </a>
-  </aside>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; Copyright 2018 Benjamin R. Garcia</p>
+    </footer>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; Copyright 2018 Benjamin R. Garcia</p>
-  </footer>
+  </div> <!-- End page container -->
 
 </body>
 </html>
