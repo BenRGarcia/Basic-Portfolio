@@ -1,15 +1,21 @@
 /*========================================*/
 /*========   Table of Contents   =========*/
 /*========================================*/
-/*  I.   Page & Containers    | Line ?    *
- *  II.  Header & Nav         | Line ?    *
- *  III. Main Content Section | Line ?    *
- *        a. About            | Line ?    *
- *        b. Portfolio        | Line ?    *
- *        c. Contact          | Line ?    *
- *  IV.  Social Links Section | Line ?    *
- *  V.   Footer               | Line ?    *
+/*  I.   Page & Containers    | Line  26  *
+ *----------------------------------------*
+ *  II.  Header & Nav         | Line  57  *
+ *----------------------------------------*
+ *  III. Main Content Section |           *
+ *        a. General          | Line  94  *
+ *        b. About            | Line 120  *
+ *        c. Portfolio        | Line 136  *
+ *        d. Contact          | Line 158  *
+ *----------------------------------------*
+ *  IV.  Social Links Section | Line 192  *
+ *----------------------------------------*
+ *  V.   Footer               | Line 217  *
  -----------------------------------------*/
+
 
 
 
@@ -26,8 +32,7 @@ body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   font-size: 19px;
-  margin-bottom: 105px;
-  /* 105px = footer height + 30px */
+  margin-bottom: 105px; /* footer height + 30px = 105px */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   overflow: auto;
 }/*-------------------------------*/
+
 
 
 
@@ -81,6 +87,7 @@ nav ul li {
 
 
 
+
 /*================================*/
 /*=== III. Main Content Section ==*/
 /*================================*/
@@ -103,6 +110,7 @@ nav ul li {
   font-size: 30px;
   padding: 15px 0;
   color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .content-hr-margin {
@@ -147,16 +155,16 @@ nav ul li {
   float: right;
 }
 /*--------- c. Contact   ---------*/
-input {
+.form-label-margin {
+  margin: 15px 0;
+}
+
+#name, #email {
   width: 100%;
   margin-top: 3px;
   font-size: 16px;
   font-weight: lighter;
   padding: 5px;
-}
-
-.form-element-margin {
-  margin: 15px 0;
 }
 
 #message {
@@ -168,11 +176,12 @@ input {
 }
 
 #submit-button {
-  width: 150px;
   color: white;
-  padding: 10px 0;
+  padding: 10px 40px;
   background-color: #4aaaa5;
+  font-size: 16px;
 }/*-------------------------------*/
+
 
 
 
@@ -201,6 +210,7 @@ input {
 
 
 
+
 /*================================*/
 /*===        V. Footer         ===*/
 /*================================*/
@@ -223,5 +233,5 @@ footer {
 }/*-------------------------------
 
 /*================================*/
-/*===            End           ===*/
+/*============= End ==============*/
 /*================================*/
