@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+
   <!-- Define the character set -->
   <meta charset="utf-8">
 
@@ -10,80 +11,88 @@
   <!-- Link to stylesheets -->
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 <body>
 
-  <!-- Wrapper -->
-  <div class="container">
+  <!-- Header, nested nav bar -->
+  <header>
 
-    <!-- Header, nested nav bar -->
-    <header>
+    <!-- Navbar wrapper -->
+    <div class="container">
       <h2 id="header-logo">Benjamin R. Garcia</h2>
-
-      <!-- Navbar, nested inside header -->
+      <!-- Navbar links -->
       <nav>
         <ul>
-          <li><a href="./index.html">About</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li><a class="nav-link" href="./contact.html">Contact</a></li>
+          <li class="nav-bd-rt"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-bd-rt"><a class="nav-link" href="./index.html">About</a></li>          
         </ul>
       </nav>
-    </header>
+      <!-- End navbar links -->
+    </div>
+    <!-- End navbar wrapper -->
 
-    <!-- Contact Form -->
-    <form class="main-section">
+  </header>
+
+  <!-- Content wrapper -->
+  <div class="container content-wrapper-margin">
+
+  <!-- Contact Form -->
+    <form class="content-box content-padding">
       <fieldset>
-        <legend>Contact</legend>
+        <legend class="content-main-title">Contact</legend>
         <hr>
         <!-- Name -->
-        <p>
+        <p class="form-element-margin">
           <label for="name">Name</label>
           <br>
           <input id="name" type="text" name="name" placeholder="ex. John Smith" required>
         </p>
         <!-- Email -->
-        <p>
+        <p class="form-element-margin">
           <label for="email">Email</label>
           <br>
           <input id="email" type="email" name="email" placeholder="you@example.com" required>
         </p>
         <!-- Message -->
-        <p>
+        <p class="form-element-margin">
           <label for="message">Message</label>
           <br>
           <textarea id="message" name="message" required></textarea>
         </p>
         <!-- Submit Button -->
-        <p>
-          <input type="submit" value="Submit">
+        <p class="form-element-margin">
+          <input id="submit-button" type="submit" value="Submit">
         </p>
       </fieldset>
     </form>
 
-    <!-- Social Links -->
-    <aside class="sidebar">
-      <h3>Connect with Me</h3>
-      <hr>
+  <!-- Social Links -->
+    <aside class="social-box content-padding center-text">
+      <h3 class="social-title">Connect with Me</h3>
+      <hr class="content-hr-margin">
       <!-- GitHub -->
-      <a href="https://github.com/BenRGarcia" target="_blank">
-        <img src="./assets/images/github.png" alt="GitHub icon">
+      <a class="nav-link" href="https://github.com/BenRGarcia" target="_blank">
+        <img class="social-icon" src="./assets/images/github.png" alt="GitHub icon">
       </a>
       <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/seebenprogram" target="_blank">
-        <img src="./assets/images/linkedin.png" alt="LinkedIn icon">
+      <a class="nav-link" href="https://www.linkedin.com/in/seebenprogram" target="_blank">
+        <img class="social-icon" src="./assets/images/linkedin.png" alt="LinkedIn icon">
       </a>
       <!-- Stack Overflow -->
-      <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
-        <img src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
+      <a class="nav-link" href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
+        <img class="social-icon" src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
       </a>
     </aside>
 
-    <!-- Footer -->
-    <footer>
-      <p>&copy; Copyright 2018 Benjamin R. Garcia</p>
-    </footer>
+  </div>
+  <!-- End content wrapper -->
 
-  </div> <!-- End page container -->
+  <!-- Footer -->
+  <footer class="sticky-footer">
+    <p id="footer-p">&copy; Copyright 2018 Benjamin R. Garcia</p>
+  </footer>
 
 </body>
 </html>
