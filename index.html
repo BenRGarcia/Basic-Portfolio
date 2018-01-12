@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+
   <!-- Define the character set -->
   <meta charset="utf-8">
 
@@ -10,48 +11,53 @@
   <!-- Link to stylesheets -->
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 <body>
 
   <!-- Header, nested nav bar -->
   <header>
+
     <!-- Navbar wrapper -->
     <div class="container">
-      <h2 id="header-logo" class="teal-bg nav-padding">Benjamin R. Garcia</h2>
-      <!-- Navbar, nested inside header -->
+      <h2 id="header-logo">Benjamin R. Garcia</h2>
+      <!-- Navbar links -->
       <nav>
         <ul>
           <li><a class="nav-link" href="./contact.html">Contact</a></li>
-          <li class="nav-border-rt"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-          <li class="nav-border-rt"><a class="nav-link" href="./index.html">About</a></li>          
+          <li class="nav-bd-rt"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-bd-rt"><a class="nav-link" href="./index.html">About</a></li>          
         </ul>
-      </nav> <!-- End navbar page links -->
-    </div> <!-- End navbar wrapper -->
+      </nav>
+      <!-- End navbar links -->
+    </div>
+    <!-- End navbar wrapper -->
+
   </header>
 
   <!-- Content wrapper -->
-  <div class="container clear-float">
+  <div class="container content-wrapper-margin">
 
     <!-- 'About Me' blurb -->
-    <article class="content-box std-padding">
-      <h1 class="heading-style page-title">About Me</h1>
-      <hr>
+    <article class="content-box content-padding">
+      <h1 class="content-main-title">About Me</h1>
+      <hr class="content-hr-margin">
       <img id="profile-pic" src="./assets/images/profile.jpeg" alt="Profile picture of Benjamin R Garcia">
-      <p class="content-padding">
-        I am a full stack web developer new to the Raleigh, NC area with an interest to server-side programming.
+      <p class="content-paragraph">
+        I'm a full stack web developer new to the Raleigh, NC area with an interest in server-side programming.
       </p>
-      <p class="content-padding">
-        JavaScript and I are engaged to be wed -- and I already put your wedding invitation in the mail!
+      <p class="content-paragraph">
+        JavaScript and I are engaged to be wed -- keep an eye out for your wedding invitation in the mail!
       </p>
-      <p class="content-padding">
-        But seriously, check out my <a href="./portfolio.html">Portfolio</a> and <a href="https://github.com/BenRGarcia" target="_blank">GitHub</a>. I think you'll find some gems over there!
+      <p class="content-paragraph">
+        But seriously, check out my <a class="inline-link" href="./portfolio.html">Portfolio</a> and <a class="inline-link" href="https://github.com/BenRGarcia" target="_blank">GitHub</a>. I think you'll find some gems over there!
       </p>
     </article>
     
     <!-- Social Links -->
-    <aside class="social-box social-title std-padding center-text">
-      <h3 class="heading-style">Connect with Me</h3>
-      <hr>
+    <aside class="social-box content-padding center-text">
+      <h3 class="social-title">Connect with Me</h3>
+      <hr class="content-hr-margin">
       <!-- GitHub -->
       <a class="nav-link" href="https://github.com/BenRGarcia" target="_blank">
         <img class="social-icon" src="./assets/images/github.png" alt="GitHub icon">
@@ -61,19 +67,18 @@
         <img class="social-icon" src="./assets/images/linkedin.png" alt="LinkedIn icon">
       </a>
       <!-- Stack Overflow -->
-      <a class="nav-link" class="nav-link" href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
+      <a class="nav-link" href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
         <img class="social-icon" src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
       </a>
     </aside>
 
   </div>
+  <!-- End content wrapper -->
 
   <!-- Footer -->
-  <footer>
-    <p id="footer-p" class="center-text">&copy; Copyright 2018 Benjamin R. Garcia</p>
+  <footer class="sticky-footer">
+    <p id="footer-p">&copy; Copyright 2018 Benjamin R. Garcia</p>
   </footer>
-
-
 
 </body>
 </html>
