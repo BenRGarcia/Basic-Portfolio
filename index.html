@@ -15,30 +15,33 @@
 
   <!-- Header, nested nav bar -->
   <header>
+    <!-- Navbar wrapper -->
     <div class="container">
       <h2 id="header-logo" class="teal-bg nav-padding">Benjamin R. Garcia</h2>
-    
       <!-- Navbar, nested inside header -->
       <nav>
         <ul>
-          <li><a href="./contact.html">Contact</a></li>
-          <li class="nav-border-rt"><a href="./portfolio.html">Portfolio</a></li>
-          <li class="nav-border-rt"><a href="./index.html">About</a></li>          
+          <li><a class="nav-link" href="./contact.html">Contact</a></li>
+          <li class="nav-border-rt"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-border-rt"><a class="nav-link" href="./index.html">About</a></li>          
         </ul>
-      </nav>
-    </div>
+      </nav> <!-- End navbar page links -->
+    </div> <!-- End navbar wrapper -->
   </header>
 
   <!-- Content wrapper -->
   <div class="container clear-float">
 
     <!-- 'About Me' blurb -->
-    <article>
-      <h1>About Me</h1>
+    <article class="content-box std-padding">
+      <h1 class="heading-style page-title">About Me</h1>
       <hr>
-      <img src="./assets/images/profile.jpeg" alt="Profile picture of Benjamin R Garcia">
+      <img id="profile-pic" src="./assets/images/profile.jpeg" alt="Profile picture of Benjamin R Garcia">
       <p>
-        I am a full stack web developer new to the Raleigh, NC area with an interest to server-side programming. JavaScript and I are engaged to be wed -- and I already put your wedding invitation in the mail!
+        I am a full stack web developer new to the Raleigh, NC area with an interest to server-side programming.
+      </p>
+      <p>
+        JavaScript and I are engaged to be wed -- and I already put your wedding invitation in the mail!
       </p>
       <p>
         But seriously, check out my <a href="./portfolio.html">Portfolio</a> and <a href="https://github.com/BenRGarcia" target="_blank">GitHub</a>. I think you'll find some gems over there!
@@ -46,19 +49,19 @@
     </article>
     
     <!-- Social Links -->
-    <aside>
-      <h3>Connect with Me</h3>
+    <aside class="social-box social-title std-padding center-text">
+      <h3 class="heading-style">Connect with Me</h3>
       <hr>
       <!-- GitHub -->
-      <a href="https://github.com/BenRGarcia" target="_blank">
+      <a class="nav-link" href="https://github.com/BenRGarcia" target="_blank">
         <img class="social-icon" src="./assets/images/github.png" alt="GitHub icon">
       </a>
       <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/seebenprogram" target="_blank">
+      <a class="nav-link" href="https://www.linkedin.com/in/seebenprogram" target="_blank">
         <img class="social-icon" src="./assets/images/linkedin.png" alt="LinkedIn icon">
       </a>
       <!-- Stack Overflow -->
-      <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
+      <a class="nav-link" class="nav-link" href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
         <img class="social-icon" src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
       </a>
     </aside>
@@ -66,8 +69,8 @@
   </div>
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; Copyright 2018 Benjamin R. Garcia</p>
+  <footer class="clear-float center-text">
+    <p id="footer-p">&copy; Copyright 2018 Benjamin R. Garcia</p>
   </footer>
 
 
