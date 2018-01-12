@@ -95,6 +95,7 @@ nav ul li {
 /*================================*/
 /*=== III. Main Content Section ==*/
 /*================================*/
+/*---------- a. General ----------*/
 .content-wrapper-margin {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -120,7 +121,7 @@ nav ul li {
 .content-hr-margin {
   margin-bottom: 15px;
 }
-/*--------- a. About Me  ---------*/
+/*--------- b. About Me  ---------*/
 #profile-pic {
   width: 250px;
   height: 250px;
@@ -140,7 +141,7 @@ nav ul li {
 .inline-link:hover {
   color: #ff8888;
 }
-/*--------- b. Portfolio ---------*/
+/*--------- c. Portfolio ---------*/
 .portfolio-img-wrapper {
   position: relative;
   margin: 22px;
@@ -166,7 +167,7 @@ nav ul li {
 .float-right {
   float: right;
 }
-/*--------- c. Contact   ---------*/
+/*--------- d. Contact   ---------*/
 .form-label-margin {
   margin: 15px 0;
 }
