@@ -1,12 +1,15 @@
-/*=====================================*/
-/*=======   Table of Contents   =======*/
-/*=====================================*/
-/*  I.   Page & Containers    | Line ?
- *  II.  Header & Nav         | Line ?
- *  III. Main Content Section | Line ?
- *  IV.  Social Links Section | Line ?
- *  V.   Footer               | Line ?
- --------------------------------------*/
+/*========================================*/
+/*========   Table of Contents   =========*/
+/*========================================*/
+/*  I.   Page & Containers    | Line ?    *
+ *  II.  Header & Nav         | Line ?    *
+ *  III. Main Content Section | Line ?    *
+ *        a. About            | Line ?    *
+ *        b. Portfolio        | Line ?    *
+ *        c. Contact          | Line ?    *
+ *  IV.  Social Links Section | Line ?    *
+ *  V.   Footer               | Line ?    *
+ -----------------------------------------*/
 
 
 
@@ -29,7 +32,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
 }
 
 .container {
@@ -100,6 +102,18 @@ nav ul li {
 .content-main-title {
   font-size: 30px;
   padding: 15px 0;
+  color: #4aaaa5;
+}
+
+.content-hr-margin {
+  margin-bottom: 15px;
+}
+/*--------- a. About Me  ---------*/
+#profile-pic {
+  width: 250px;
+  height: 250px;
+  margin: 0 15px 5px 0;
+  float: left;
 }
 
 .content-paragraph {
@@ -107,20 +121,35 @@ nav ul li {
   padding: 13px 0;
 }
 
-.content-hr-margin {
-  margin-bottom: 15px;
-}
-
 .inline-link {
   color: red;
 }
+/*--------- b. Portfolio ---------*/
+.portfolio-img-wrapper {
+  position: relative;
+  margin: 22px;
+}
 
-#profile-pic {
+.portfolio-img-banner {
+  background-color: #4aaaa5;
   width: 250px;
-  height: 250px;
-  margin: 0 15px 5px 0;
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  position: absolute;
+  top: 65%;
+}
+.float-left {
   float: left;
-}/*-------------------------------*/
+}
+
+.float-right {
+  float: right;
+}
+/*--------- c. Contact   ---------*/
+
+
+/*-------------------------------*/
 
 
 
@@ -137,6 +166,7 @@ nav ul li {
 
 .social-title {
   font-size: 25px;
+  color: #4aaaa5;
 }
 
 .social-icon {
@@ -168,3 +198,7 @@ footer {
   font-size: 15px;
   text-align: center;
 }/*-------------------------------
+
+/*================================*/
+/*===            End           ===*/
+/*================================*/
