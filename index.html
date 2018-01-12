@@ -13,55 +13,64 @@
 </head>
 <body>
 
-    <!-- Header, nested nav bar -->
-    <header>
-      <h2>Benjamin R. Garcia</h2>
+  <!-- Header, nested nav bar -->
+  <header>
+    <div class="container">
+      <h2 id="header-logo" class="teal-bg nav-padding">Benjamin R. Garcia</h2>
     
       <!-- Navbar, nested inside header -->
       <nav>
         <ul>
-          <li><a href="./index.html">About</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="./contact.html">Contact</a></li>
+          <li class="nav-border-rt"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-border-rt"><a href="./index.html">About</a></li>          
         </ul>
       </nav>
-    </header>
+    </div>
+  </header>
 
-      <!-- 'About Me' blurb -->
-      <article>
-        <h1>About Me</h1>
-        <hr>
-        <img src="./assets/images/profile.jpeg" alt="Profile picture of Benjamin R Garcia">
-        <p>
-          I am a full stack web developer new to the Raleigh, NC area with an interest to server-side programming. JavaScript and I are engaged to be wed -- and I already put your wedding invitation in the mail!
-        </p>
-        <p>
-          But seriously, check out my <a href="./portfolio.html">Portfolio</a> and <a href="https://github.com/BenRGarcia" target="_blank">GitHub</a>. I think you'll find some gems over there!
-        </p>
-      </article>
-      
-      <!-- Social Links -->
-      <aside>
-        <h3>Connect with Me</h3>
-        <hr>
-        <!-- GitHub -->
-        <a href="https://github.com/BenRGarcia" target="_blank">
-          <img class="social-icon" src="./assets/images/github.png" alt="GitHub icon">
-        </a>
-        <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/seebenprogram" target="_blank">
-          <img class="social-icon" src="./assets/images/linkedin.png" alt="LinkedIn icon">
-        </a>
-        <!-- Stack Overflow -->
-        <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
-          <img class="social-icon" src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
-        </a>
-      </aside>
+  <!-- Content wrapper -->
+  <div class="container clear-float">
+
+    <!-- 'About Me' blurb -->
+    <article>
+      <h1>About Me</h1>
+      <hr>
+      <img src="./assets/images/profile.jpeg" alt="Profile picture of Benjamin R Garcia">
+      <p>
+        I am a full stack web developer new to the Raleigh, NC area with an interest to server-side programming. JavaScript and I are engaged to be wed -- and I already put your wedding invitation in the mail!
+      </p>
+      <p>
+        But seriously, check out my <a href="./portfolio.html">Portfolio</a> and <a href="https://github.com/BenRGarcia" target="_blank">GitHub</a>. I think you'll find some gems over there!
+      </p>
+    </article>
+    
+    <!-- Social Links -->
+    <aside>
+      <h3>Connect with Me</h3>
+      <hr>
+      <!-- GitHub -->
+      <a href="https://github.com/BenRGarcia" target="_blank">
+        <img class="social-icon" src="./assets/images/github.png" alt="GitHub icon">
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/seebenprogram" target="_blank">
+        <img class="social-icon" src="./assets/images/linkedin.png" alt="LinkedIn icon">
+      </a>
+      <!-- Stack Overflow -->
+      <a href="https://stackexchange.com/users/11591849/seebenprogram" target="_blank">
+        <img class="social-icon" src="./assets/images/stackoverflow.png" alt="Stack Overflow icon">
+      </a>
+    </aside>
+
+  </div>
 
   <!-- Footer -->
-    <footer>
-      <p>&copy; Copyright 2018 Benjamin R. Garcia</p>
-    </footer>
+  <footer>
+    <p>&copy; Copyright 2018 Benjamin R. Garcia</p>
+  </footer>
+
+
 
 </body>
 </html>
