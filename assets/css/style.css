@@ -113,10 +113,14 @@ nav ul li {
 }
 
 #footer-p {
-
+  padding: 25px 0;
+  color: #aaaaaa;
+  font-size: 14px;
+  /*display: inline;*/
+  width: 100%;
 }
 
-p {
+.content-padding {
   padding: 13px 0;
 }
 
@@ -129,18 +133,18 @@ hr {
   color: #777777;
 }
 
+.footer-holder {
+
+}
+
 footer {
-  padding: 30px;
   background-color: #666666;
   border-top: 5px solid #4aaaa5;
-  font-size: 14px;
-  margin-top: 30px;
-  min-width: 960px;
-  color: #aaaaaa;
+  height: 75px;
   position: fixed;
-  bottom: 0;
+  left: 0;
   right: 0;
-  left: 0
+  bottom: 0;
 }
 
 /*
