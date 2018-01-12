@@ -3,17 +3,17 @@
 /*========================================*/
 /*  I.   Page & Containers    | Line  26  *
  *----------------------------------------*
- *  II.  Header & Nav         | Line  55  *
+ *  II.  Header & Nav         | Line  63  *
  *----------------------------------------*
  *  III. Main Content Section |           *
- *        a. General          | Line  98  *
- *        b. About            | Line 124  *
- *        c. Portfolio        | Line 144  *
- *        d. Contact          | Line 170  *
+ *        a. General          | Line 105  *
+ *        b. About            | Line 130  *
+ *        c. Portfolio        | Line 149  *
+ *        d. Contact          | Line 168  *
  *----------------------------------------*
- *  IV.  Social Links Section | Line 208  *
+ *  IV.  Social Links Section | Line 206  *
  *----------------------------------------*
- *  V.   Footer               | Line 237  *
+ *  V.   Footer               | Line 234  *
  *----------------------------------------*/
 
 
@@ -43,6 +43,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 960px;
   margin: 0 auto;
   overflow: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }/*-------------------------------*/
 
 
@@ -60,7 +68,6 @@ header {
 
 #header-logo {
   display: inline;
-  float: left;
   color: white;
   padding: 25px;
   font-size: 25px;
@@ -69,7 +76,6 @@ header {
 
 nav ul li {
   display: inline;
-  float: right;
   padding: 0 10px;
   margin: 29px 0;
   font-size: 17px;
@@ -102,7 +108,6 @@ nav ul li {
 }
 
 .content-box {
-  float: left;
   width: 650px;
   background-color: #ffffff;
 }
@@ -126,7 +131,6 @@ nav ul li {
   width: 250px;
   height: 250px;
   margin: 0 15px 5px 0;
-  float: left;
 }
 
 .content-paragraph {
@@ -159,13 +163,6 @@ nav ul li {
   padding: 15px 0;
   position: absolute;
   top: 65%;
-}
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
 }
 /*--------- d. Contact   ---------*/
 .form-label-margin {
@@ -207,7 +204,6 @@ nav ul li {
 /*=== IV. Social Links Section ===*/
 /*================================*/
 .social-box {
-  float: right;
   width: 270px;
   background-color: #ffffff;
   text-align: center;
@@ -241,7 +237,7 @@ footer {
   height: 75px;
 }
 
-.sticky-footer {
+.footer-sticky {
   position: fixed;
   left: 0; right: 0; bottom: 0;
 }
