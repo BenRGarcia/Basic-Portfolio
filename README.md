@@ -12,6 +12,6 @@ Click [here](https://benrgarcia.github.io/Basic-Portfolio/) to view the live sit
 
 ### Refactors:
 
-Click [here](https://benrgarcia.github.io/Bootstrap-Portfolio/) to view this side refactored with Bootstrap v4
+Click [here](https://benrgarcia.github.io/Bootstrap-Portfolio/) to view this site refactored with Bootstrap v4
 
-Click [here](https://benrgarcia.github.io/Responsive-Portfolio/) to view this side refactored to be responsive with vanilla CSS (Media Queries)
+Click [here](https://benrgarcia.github.io/Responsive-Portfolio/) to view this site refactored to be responsive with vanilla CSS (Media Queries)
